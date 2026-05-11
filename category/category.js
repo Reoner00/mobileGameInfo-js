@@ -5,10 +5,7 @@ const categoryId = Number(query.get("cat")) || 1;
 
 const categoryList = document.getElementById("categoryList");
 const emptyState = document.getElementById("emptyState");
-
-if (!categoryList || !emptyState) {
-  console.error("error");
-}
+const backBtn = document.getElementById("backBtn");
 
 const categoryCards = cards
   .filter((card) => Number(card.category) === categoryId)
@@ -34,8 +31,8 @@ function buildCard(card) {
   img.alt = card.title || `Card ${card.id}`;
 
   img.onerror = () => {
-    console.error("img not found:", card.image);
-    thumb.textContent = "img not found";
+    console.error("Image not found:", card.image);
+    thumb.textContent = "Нет картинки";
   };
 
   thumb.appendChild(img);
@@ -55,15 +52,16 @@ function buildCard(card) {
 
 categoryList.innerHTML = "";
 
-if (!categoryCards.length) {
+if (categoryCards.length === 0) {
   emptyState.style.display = "block";
 } else {
   emptyState.style.display = "none";
+
   categoryCards.forEach((card) => {
     categoryList.appendChild(buildCard(card));
   });
 }
 
-window.goBack = function () {
+backBtn.addEventListener("click", () => {
   window.history.back();
-};
+});

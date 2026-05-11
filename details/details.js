@@ -1,38 +1,36 @@
-// details.js
-
 import cards from "../data/data.js";
-/*
-  ПРИМЕР:
 
-  details.html?id=5
-*/
+const query = new URLSearchParams(window.location.search);
+const cardId = Number(query.get("id"));
 
-const params = new URLSearchParams(window.location.search);
+const card = cards.find((item) => Number(item.id) === cardId);
 
-const cardId = Number(params.get("id"));
-
-const card = cards.find((item) => item.id === cardId);
-
+const backBtn = document.getElementById("backBtn");
 const cardImage = document.getElementById("cardImage");
 const cardDescription = document.getElementById("cardDescription");
 const cardSecondImage = document.getElementById("cardSecondImage");
 
-/* ЕСЛИ КАРТОЧКА НЕ НАЙДЕНА */
-
 if (!card) {
-  document.body.innerHTML = "<h1>Card not found</h1>";
+  document.body.innerHTML = `
+    <main class="details-page">
+      <h1 class="details-title">Card not found</h1>
+    </main>
+  `;
+} else {
+  cardImage.src = card.image;
+  cardImage.alt = card.title;
+
+  cardDescription.textContent = card.description || "";
+
+  cardSecondImage.src = card.secondImage;
+  cardSecondImage.alt = card.title;
 }
 
-/* ВСТАВЛЯЕМ ДАННЫЕ */
+backBtn.addEventListener("click", () => {
+  document.body.classList.add("hide-before-leave");
 
-cardImage.src = card.image;
-
-cardDescription.textContent = card.description;
-
-cardSecondImage.src = card.secondImage;
-
-/* КНОПКА НАЗАД */
-
-document.getElementById("backBtn").addEventListener("click", () => {
-  window.history.back();
+  setTimeout(() => {
+    window.location.href = `../category/category.html?cat=${card.category}`;
+  }, 80);
 });
+document.body.classList.add("page-ready");

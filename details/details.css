@@ -131,3 +131,17 @@ body {
 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+body.hide-before-leave .back-btn,
+body.hide-before-leave .main-image,
+body.hide-before-leave .description-box,
+body.hide-before-leave .second-image {
+  display: none;
+}
+
+body.hide-before-leave .details-page {
+  background: #39b32d;
+}
+
+body.hide-before-leave .details-title {
+  display: block;
+}
