@@ -1,0 +1,312 @@
+.home {
+  position: relative;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: 0;
+
+  overflow: hidden;
+
+  background: #45b43a;
+
+  padding: 20px 16px 30px;
+}
+
+/* CONTENT */
+
+.content {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 70px 30px;
+}
+
+.content h2 {
+  color: #baf2b5;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 900;
+
+  text-shadow:
+    0 4px 0 #2b842b,
+    0 0 10px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 28px;
+}
+
+.content p {
+  width: 260px;
+  color: #baf2b5;
+  text-align: center;
+  text-shadow: 0px 3px 5px #000000;
+  font-family: "Fredoka-light";
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.category-btn {
+  width: 75%;
+  height: 45px;
+  border-radius: 999px;
+  color: white;
+  background-color: #2f8229;
+  font-family: "Fredoka-light";
+  text-shadow: 0px 3px 5px #000000;
+}
+
+.category-btn:active {
+  transform: scale(0.98);
+}
+.category-btn:hover {
+  opacity: 0.9;
+}
+
+.category-block {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 24px;
+}
+
+.category-block.hidden {
+  display: none;
+}
+
+.category-panel {
+  width: min(430px, 100%);
+  max-height: 92vh;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.3);
+  padding: 22px;
+}
+
+.category-panel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.category-label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  color: #cff9b3;
+  margin-bottom: 4px;
+}
+
+.close-panel {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: 65vh;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.category-empty {
+  color: #f8fbe5;
+  text-align: center;
+  padding: 18px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 440px) {
+  .category-panel {
+    padding: 18px;
+  }
+}
+/* ALL DECOR */
+
+.home img {
+  position: absolute;
+
+  z-index: 1;
+
+  pointer-events: none;
+
+  object-fit: contain;
+}
+
+/* JANTAR */
+
+.jantar-img {
+  width: 101px;
+  height: 128px;
+  left: 2px;
+  top: -38px;
+  transform: rotate(-18deg) scale(1.1);
+}
+
+/* RUTA */
+
+.flower-img {
+  width: 123px;
+  height: 156px;
+  top: -50px;
+  left: 100px;
+  transform: rotate(140deg) scale(1.1);
+}
+
+/* GAIDELIS */
+
+.gaidelis-img {
+  width: 160px;
+  height: 203px;
+  top: -73px;
+  left: 250px;
+  transform: rotate(13deg) scale(1);
+}
+
+/* LITAI */
+
+.litai-img {
+  width: 121px;
+  height: 154px;
+
+  top: 70px;
+  right: -33px;
+  transform: rotate(8deg);
+}
+
+/* SAKOTIS */
+
+.sakotis-img {
+  width: 155px;
+  height: 197px;
+  top: 200px;
+  right: -53px;
+  transform: rotate(-12deg) scale(1);
+}
+
+/* KATEKIZMAS */
+
+.katekizmas-img {
+  width: 93px;
+  height: 118px;
+  top: 430px;
+  right: -22px;
+
+  transform: rotate(-15deg) scale(1);
+}
+
+/* MIGLE */
+
+.migle-img {
+  width: 198px;
+  height: 141px;
+
+  right: -80px;
+  bottom: 180px;
+  transform: rotate(42deg) scale(1);
+}
+
+/* TOWER */
+
+.tower-img {
+  width: 168px;
+  height: 213px;
+
+  right: -45px;
+  bottom: -60px;
+  transform: rotate(-15deg) scale(1.1);
+}
+
+/* GUYS */
+
+.guys-img {
+  width: 136px;
+  height: 97px;
+
+  bottom: -3%;
+  left: 140px;
+  transform: scale(1.1);
+}
+
+/* TRAIN */
+
+.train-img {
+  width: 162px;
+  height: 127px;
+
+  left: -40px;
+  bottom: 10px;
+
+  transform: rotate(10deg) scale(1.2);
+}
+
+/* KAKE */
+
+.kake-img {
+  width: 142px;
+  height: 182px;
+
+  left: -55px;
+  bottom: 160px;
+  transform: rotate(30deg) scale(1.1);
+}
+
+/* TV */
+
+.TV-img {
+  width: 280px;
+  left: -120px;
+  bottom: 30%;
+  transform: rotate(22deg) scale(1);
+}
+
+/* GANDRAS */
+
+.gandras-img {
+  width: 255px;
+
+  left: -130px;
+  top: 170px;
+  transform: rotate(30deg) scale(1);
+}
+
+/* KARUNA */
+
+.karuna-img {
+  width: 135px;
+  left: -40px;
+  top: 10%;
+
+  transform: rotate(1deg);
+}
