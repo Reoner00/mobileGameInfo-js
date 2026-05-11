@@ -6,7 +6,7 @@ const cards = [
     image: "../img/Norfa.png",
     description:
       "1. Norfa: Praktiško lietuvio šventovė, kurioje „Norfos kvapas“ yra nemokamas priedas prie pigių dešrelių. Čia šalia duonos gali netyčia nusipirkti meškerę ar betono maišyklę, o pirkėjų aprangos kodas – guminės šlepetės arba kostiumas (nes abiems rūpi nuolaidos).",
-    secondImage: "../img/details/image-2.svg",
+    secondImage: "../img/details/image-1.svg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const cards = [
     image: "../img/Vici.png",
     description:
       "Viči – tai krabų lazdelių imperija, įrodžiusi Lietuvai, kad žuvis nebūtinai turi būti matymusi žuvį, jog taptų šventinio stalo pažiba. Tai prekės ženklas, kuris sugebėjo įtikinti visą šalį, jog raudonai dažytas surimis yra geriausias draugas kiaušiniams ir majonezui, o jų „krabų skonio“ gaminiai vandenyje plaukiojo maždaug tiek pat, kiek tavo viltys laimėti loterijoje",
-    secondImage: "../img/details/image-3.svg",
+    secondImage: "../img/details/image-2.svg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const cards = [
     image: "../img/Ausros_Vartai.png",
     description:
       "Aušros vartai – tai vienintelė išlikusi Vilniaus gynybinės sienos dalis, kuri šiandien dirba viršvalandžius kaip dvasinis „Wi-Fi“ ryšys su aukštesnėmis jėgomis. Tai vieta, kur net kiečiausi ateistai staiga pradeda domėtis architektūra ir nusiima kepures, o turistai masiškai blokuoja gatvę bandydami nufotografuoti stebuklingąjį paveikslą taip, lyg tai būtų roko žvaigždė. Trumpai tariant: istorinis vartų „face control’as“, kurį praėjęs pasijauti arba šventesnis, arba tiesiog labai pavargęs nuo kopimo stačiais laiptais.+",
-    secondImage: "../img/details/image-4.svg",
+    secondImage: "../img/details/image-3.svg",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const cards = [
     title: "TV BOKSTAS",
     image: "../img/TV_Bokstas.png",
     description: "",
-    secondImage: "../img/details/image-5.svg",
+    secondImage: "../img/details/image-4.svg",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const cards = [
     title: "TRYS KARALIAI SVENTE",
     image: "../img/Trys_Karaliai.png",
     description: "",
-    secondImage: "../img/details/image-6.svg",
+    secondImage: "../img/details/image-5.svg",
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const cards = [
     title: "VARPAS",
     image: "../img/Varpas.png",
     description: "",
-    secondImage: "../img/details/image-7.svg",
+    secondImage: "../img/details/image-6.svg",
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const cards = [
     title: "GEDIMINO STULPAS",
     image: "../img/Stulpai_Gedimino.png",
     description: "",
-    secondImage: "../img/details/image-8.svg",
+    secondImage: "../img/details/image-7.svg",
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const cards = [
     title: "MARTYNAS MAZVYDAS",
     image: "../img/Mažvydas_.png",
     description: "",
-    secondImage: "../img/details/image-9.svg",
+    secondImage: "../img/details/image-8.svg",
   },
   {
     id: 9,
@@ -72,7 +72,7 @@ const cards = [
     title: "VĖLINĖS",
     image: "../img/Jonines.png",
     description: "",
-    secondImage: "../img/details/image-10.svg",
+    secondImage: "../img/details/image-9.svg",
   },
   {
     id: 10,
@@ -80,7 +80,7 @@ const cards = [
     title: "IKI",
     image: "../img/iki.png",
     description: "",
-    secondImage: "../img/details/image-11.svg",
+    secondImage: "../img/details/image-10.svg",
   },
   {
     id: 11,
@@ -88,7 +88,7 @@ const cards = [
     title: "JONINĖS",
     image: "../img/Jonines-1.png",
     description: "",
-    secondImage: "../img/details/image-12.svg",
+    secondImage: "../img/details/image-11.svg",
   },
   {
     id: 12,
@@ -96,7 +96,7 @@ const cards = [
     title: "AUDIMAS",
     image: "../img/AUDIMAS.png",
     description: "",
-    secondImage: "../img/details/image-13.svg",
+    secondImage: "../img/details/image-12.svg",
   },
   {
     id: 13,
@@ -104,7 +104,7 @@ const cards = [
     title: "MEDUOLIAI",
     image: "../img/MEDUOLIAI.png",
     description: "",
-    secondImage: "../img/details/image-14.svg",
+    secondImage: "../img/details/image-13.svg",
   },
   {
     id: 14,
@@ -112,7 +112,7 @@ const cards = [
     title: " GEDIMINAS ",
     image: "../img/GEDIMINAS.png",
     description: "",
-    secondImage: "../img/details/image-15.svg",
+    secondImage: "../img/details/image-14.svg",
   },
   {
     id: 15,
@@ -120,7 +120,7 @@ const cards = [
     title: " PILIES PASAKA ",
     image: "../img/PASAKA.png",
     description: "",
-    secondImage: "../img/details/image-16.svg",
+    secondImage: "../img/details/image-15.svg",
   },
   {
     id: 16,
@@ -128,7 +128,7 @@ const cards = [
     title: "KAKĖ MAKĖ",
     image: "../img/KAKE_MAKE.png",
     description: "",
-    secondImage: "../img/details/image-17.svg",
+    secondImage: "../img/details/image-16.svg",
   },
   {
     id: 17,
@@ -136,7 +136,7 @@ const cards = [
     title: "ŽAGARĖLIAI",
     image: "../img/zagarelis.png",
     description: "",
-    secondImage: "../img/details/image-18.svg",
+    secondImage: "../img/details/image-17.svg",
   },
   {
     id: 18,
@@ -144,7 +144,7 @@ const cards = [
     title: "TAUTINĖS JUOSTOS",
     image: "../img/TautJuosta.png",
     description: "",
-    secondImage: "../img/details/image-19.svg",
+    secondImage: "../img/details/image-18.svg",
   },
   {
     id: 19,
@@ -152,7 +152,7 @@ const cards = [
     title: "AUŠRA",
     image: "../img/Ausra.png",
     description: "",
-    secondImage: "../img/details/image-20.svg",
+    secondImage: "../img/details/image-19.svg",
   },
   {
     id: 20,
@@ -160,7 +160,7 @@ const cards = [
     title: "Kryžių kalnas",
     image: "../img/kress.png",
     description: "",
-    secondImage: "../img/details/image-21.svg",
+    secondImage: "../img/details/image-20.svg",
   },
   {
     id: 21,
@@ -168,7 +168,7 @@ const cards = [
     title: "Vinted",
     image: "../img/Vinted.png",
     description: "",
-    secondImage: "../img/details/image-22.svg",
+    secondImage: "../img/details/image-21.svg",
   },
   {
     id: 22,
@@ -176,7 +176,7 @@ const cards = [
     title: "Gandras",
     image: "../img/Gandras.png",
     description: "",
-    secondImage: "../img/details/image-23.svg",
+    secondImage: "../img/details/image-22.svg",
   },
   {
     id: 23,
@@ -184,7 +184,7 @@ const cards = [
     title: "GEDIMINO PILIS",
     image: "../img/Gedimino_Bokštas.png",
     description: "",
-    secondImage: "../img/details/image-24.svg",
+    secondImage: "../img/details/image-23.svg",
   },
   {
     id: 24,
@@ -192,7 +192,7 @@ const cards = [
     title: "MO MOZIJUS",
     image: "../img/MO.png",
     description: "",
-    secondImage: "../img/details/image-25.svg",
+    secondImage: "../img/details/image-24.svg",
   },
   {
     id: 25,
@@ -200,7 +200,7 @@ const cards = [
     title: "KATEKIZAMAS",
     image: "../img/Katekizmas.png",
     description: "",
-    secondImage: "../img/details/image-26.svg",
+    secondImage: "../img/details/image-25.svg",
   },
   {
     id: 26,
@@ -208,7 +208,7 @@ const cards = [
     title: "TAUTINIAI KOSTUMSI",
     image: "../img/TAUTKOST.png",
     description: "",
-    secondImage: "../img/details/image-27.svg",
+    secondImage: "../img/details/image-26.svg",
   },
   {
     id: 27,
@@ -216,7 +216,7 @@ const cards = [
     title: "VARŠKĖS SPURGOS",
     image: "../img/SPURGOS.png",
     description: "",
-    secondImage: "../img/details/image-28.svg",
+    secondImage: "../img/details/image-27.svg",
   },
   {
     id: 28,
@@ -224,7 +224,7 @@ const cards = [
     title: "MALŪNAS",
     image: "../img/MALUNAS.png",
     description: "",
-    secondImage: "../img/details/image-29.svg",
+    secondImage: "../img/details/image-28.svg",
   },
   {
     id: 29,
@@ -232,7 +232,7 @@ const cards = [
     title: "SALOMĖJA NĖRIS",
     image: "../img/SALOMEJA.png",
     description: "",
-    secondImage: "../img/details/image-30.svg",
+    secondImage: "../img/details/image-29.svg",
   },
   {
     id: 30,
@@ -240,7 +240,7 @@ const cards = [
     title: "MIKALOJUS KONSTANTINAS ČIURLIONIS",
     image: "../img/Čiurlionis_.png",
     description: "",
-    secondImage: "../img/details/image-31.svg",
+    secondImage: "../img/details/image-30.svg",
   },
   {
     id: 31,
@@ -248,7 +248,7 @@ const cards = [
     title: "DVARO",
     image: "../img/Dvaro.png",
     description: "",
-    secondImage: "../img/details/image-32.svg",
+    secondImage: "../img/details/image-31.svg",
   },
   {
     id: 32,
@@ -256,7 +256,7 @@ const cards = [
     title: "VYTIS",
     image: "../img/VYTIS.png",
     description: "",
-    secondImage: "../img/details/image-33.svg",
+    secondImage: "../img/details/image-32.svg",
   },
   {
     id: 33,
@@ -264,7 +264,7 @@ const cards = [
     title: "MAXIMA",
     image: "../img/MAXIMA.png",
     description: "",
-    secondImage: "../img/details/image-34.svg",
+    secondImage: "../img/details/image-33.svg",
   },
   {
     id: 34,
@@ -272,7 +272,7 @@ const cards = [
     title: "CAFFEIN",
     image: "../img/CAFFEIN.png",
     description: "",
-    secondImage: "../img/details/image-35.svg",
+    secondImage: "../img/details/image-34.svg",
   },
   {
     id: 35,
@@ -280,7 +280,7 @@ const cards = [
     title: "BULVINIAI BLYNAI",
     image: "../img/BULVINIAI_BLYNAI.png",
     description: "",
-    secondImage: "../img/details/image-36.svg",
+    secondImage: "../img/details/image-35.svg",
   },
   {
     id: 36,
@@ -288,7 +288,7 @@ const cards = [
     title: "FORTUNA",
     image: "../img/FORTUNA.png",
     description: "",
-    secondImage: "../img/details/image-37.svg",
+    secondImage: "../img/details/image-36.svg",
   },
   {
     id: 37,
@@ -296,7 +296,7 @@ const cards = [
     title: "JONAS BASANAVIČIUS",
     image: "../img/Jonas_Basanavičius.png",
     description: "",
-    secondImage: "../img/details/image-38.svg",
+    secondImage: "../img/details/image-37.svg",
   },
   {
     id: 38,
@@ -304,7 +304,7 @@ const cards = [
     title: "ROTUŠĖ",
     image: "../img/ROTUSE.png",
     description: "",
-    secondImage: "../img/details/image-39.svg",
+    secondImage: "../img/details/image-38.svg",
   },
   {
     id: 39,
@@ -312,7 +312,7 @@ const cards = [
     title: "UŽGAVĖNĖS",
     image: "../img/Uzgavenes.png",
     description: "",
-    secondImage: "../img/details/image-40.svg",
+    secondImage: "../img/details/image-39.svg",
   },
   {
     id: 40,
@@ -320,7 +320,7 @@ const cards = [
     title: "RŪTA",
     image: "../img/RUTA.png",
     description: "",
-    secondImage: "../img/details/image-41.svg",
+    secondImage: "../img/details/image-40.svg",
   },
   {
     id: 41,
@@ -328,7 +328,7 @@ const cards = [
     title: "KREGŽDUTĖ",
     image: "../img/KREGZDUTE.png",
     description: "",
-    secondImage: "../img/details/image-42.svg",
+    secondImage: "../img/details/image-41.svg",
   },
   {
     id: 42,
@@ -336,7 +336,7 @@ const cards = [
     title: "ŠALTIBARŠČIAI",
     image: "../img/ŠALTIBARŠČIAI.png",
     description: "",
-    secondImage: "../img/details/image-43.svg",
+    secondImage: "../img/details/image-42.svg",
   },
   {
     id: 43,
@@ -344,7 +344,7 @@ const cards = [
     title: "GIRA",
     image: "../img/GIRA_.png",
     description: "",
-    secondImage: "../img/details/image-44.svg",
+    secondImage: "../img/details/image-43.svg",
   },
   {
     id: 44,
@@ -352,7 +352,7 @@ const cards = [
     title: "BALANDĖLIAI",
     image: "../img/BALANDELIAI.png",
     description: "",
-    secondImage: "../img/details/image-45.svg",
+    secondImage: "../img/details/image-44.svg",
   },
   {
     id: 45,
@@ -360,7 +360,7 @@ const cards = [
     title: "GINTARAS",
     image: "../img/jantar.png",
     description: "",
-    secondImage: "../img/details/image-46.svg",
+    secondImage: "../img/details/image-45.svg",
   },
   {
     id: 46,
@@ -368,7 +368,7 @@ const cards = [
     title: "VINCAS KUDIRKA",
     image: "../img/KUDIRKA.png",
     description: "",
-    secondImage: "../img/details/image-47.svg",
+    secondImage: "../img/details/image-46.svg",
   },
   {
     id: 47,
@@ -376,7 +376,7 @@ const cards = [
     title: "DARIUS IR GIRĖNAS",
     image: "../img/Darius_Girenas.png",
     description: "",
-    secondImage: "../img/details/image-48.svg",
+    secondImage: "../img/details/image-47.svg",
   },
   {
     id: 48,
@@ -384,7 +384,7 @@ const cards = [
     title: "GAIDELIS",
     image: "../img/Gaidelis.png",
     description: "",
-    secondImage: "../img/details/image-49.svg",
+    secondImage: "../img/details/image-48.svg",
   },
   {
     id: 49,
@@ -392,7 +392,7 @@ const cards = [
     title: "LITAI",
     image: "../img/Litai.png",
     description: "",
-    secondImage: "../img/details/image-50.svg",
+    secondImage: "../img/details/image-49.svg",
   },
   {
     id: 50,
@@ -400,7 +400,7 @@ const cards = [
     title: "MINDAUGAS",
     image: "../img/30Mindaugas.png",
     description: "",
-    secondImage: "../img/details/image-51.svg",
+    secondImage: "../img/details/image-50.svg",
   },
   {
     id: 51,
@@ -408,7 +408,7 @@ const cards = [
     title: "TROLEIBUSAS",
     image: "../img/troleibusas.png",
     description: "",
-    secondImage: "../img/details/image-52.svg",
+    secondImage: "../img/details/image-51.svg",
   },
   {
     id: 52,
@@ -416,7 +416,7 @@ const cards = [
     title: "ŽALGIRIS",
     image: "../img/Zalgiris.png",
     description: "",
-    secondImage: "../img/details/image-53.svg",
+    secondImage: "../img/details/image-52.svg",
   },
   {
     id: 53,
@@ -424,7 +424,7 @@ const cards = [
     title: "TRIJŲ KRYŽIŲ KALNAS",
     image: "../img/trix.png",
     description: "",
-    secondImage: "../img/details/image-54.svg",
+    secondImage: "../img/details/image-53.svg",
   },
   {
     id: 54,
@@ -432,7 +432,7 @@ const cards = [
     title: "TRISPALVĖ",
     image: "../img/Trispalvė.png",
     description: "",
-    secondImage: "../img/details/image-55.svg",
+    secondImage: "../img/details/image-54.svg",
   },
   {
     id: 55,
@@ -440,7 +440,7 @@ const cards = [
     title: "BALTOJI MIŠRAINĖ",
     image: "../img/misraine.png",
     description: "",
-    secondImage: "../img/details/image-56.svg",
+    secondImage: "../img/details/image-55.svg",
   },
   {
     id: 56,
@@ -448,7 +448,7 @@ const cards = [
     title: "RYTAS",
     image: "../img/RYTAS.png",
     description: "",
-    secondImage: "../img/details/image-57.svg",
+    secondImage: "../img/details/image-56.svg",
   },
   {
     id: 57,
@@ -456,7 +456,7 @@ const cards = [
     title: "DŽIUGAS",
     image: "../img/DZIUGAS.png",
     description: "",
-    secondImage: "../img/details/image-58.svg",
+    secondImage: "../img/details/image-57.svg",
   },
   {
     id: 58,
@@ -464,7 +464,7 @@ const cards = [
     title: "GRYBUKAI",
     image: "../img/grybukai.png",
     description: "",
-    secondImage: "../img/details/image-59.svg",
+    secondImage: "../img/details/image-58.svg",
   },
   {
     id: 59,
@@ -472,7 +472,7 @@ const cards = [
     title: "ŠVYTURYS",
     image: "../img/Švyturys_.png",
     description: "",
-    secondImage: "../img/details/image-60.svg",
+    secondImage: "../img/details/image-59.svg",
   },
   {
     id: 60,
@@ -480,7 +480,7 @@ const cards = [
     title: "GELEŽINIS VILKAS",
     image: "../img/Geležinis_Vilkas.png",
     description: "",
-    secondImage: "../img/details/image-61.svg",
+    secondImage: "../img/details/image-60.svg",
   },
   {
     id: 61,
@@ -488,7 +488,7 @@ const cards = [
     title: "VILNIAUS UNIVERSITETAS",
     image: "../img/VU.png",
     description: "",
-    secondImage: "../img/details/image-62.svg",
+    secondImage: "../img/details/image-61.svg",
   },
   {
     id: 62,
@@ -496,7 +496,7 @@ const cards = [
     title: "KEPTA DUONA",
     image: "../img/Kepta_Duona.png",
     description: "",
-    secondImage: "../img/details/image-63.svg",
+    secondImage: "../img/details/image-62.svg",
   },
   {
     id: 63,
@@ -504,7 +504,7 @@ const cards = [
     title: "SUVENYRAI",
     image: "../img/SUVENYRAS.png",
     description: "",
-    secondImage: "../img/details/image-64.svg",
+    secondImage: "../img/details/image-63.svg",
   },
   {
     id: 64,
@@ -512,7 +512,7 @@ const cards = [
     title: "BARBORA RADVILAITĖ",
     image: "../img/Barbora_Radvilaitė.png",
     description: "",
-    secondImage: "../img/details/image-65.svg",
+    secondImage: "../img/details/image-64.svg",
   },
   {
     id: 65,
@@ -520,7 +520,7 @@ const cards = [
     title: "CEPELINAI",
     image: "../img/CEPELINAI.png",
     description: "",
-    secondImage: "../img/details/image-66.svg",
+    secondImage: "../img/details/image-65.svg",
   },
   {
     id: 66,
@@ -528,7 +528,7 @@ const cards = [
     title: "MIGLĖ",
     image: "../img/MIGLĖ.png",
     description: "",
-    secondImage: "../img/details/image-67.svg",
+    secondImage: "../img/details/image-66.svg",
   },
   {
     id: 67,
@@ -536,7 +536,7 @@ const cards = [
     title: "VYTAUTAS DIDYSIS",
     image: "../img/Vytautas_Didysis.png",
     description: "",
-    secondImage: "../img/details/image-68.svg",
+    secondImage: "../img/details/image-67.svg",
   },
   {
     id: 68,
@@ -544,7 +544,7 @@ const cards = [
     title: "VARLĖ.LT",
     image: "../img/Varlė.png",
     description: "",
-    secondImage: "../img/details/image-69.svg",
+    secondImage: "../img/details/image-68.svg",
   },
   {
     id: 69,
@@ -552,7 +552,7 @@ const cards = [
     title: "ŽEMAIČIŲ BLYNAI",
     image: "../img/Žemaičių_Blynai.png",
     description: "",
-    secondImage: "../img/details/image-70.svg",
+    secondImage: "../img/details/image-69.svg",
   },
   {
     id: 70,
@@ -560,7 +560,7 @@ const cards = [
     title: "TINGINYS",
     image: "../img/Tinginys.png",
     description: "",
-    secondImage: "../img/details/image-71.svg",
+    secondImage: "../img/details/image-70.svg",
   },
   {
     id: 71,
@@ -568,7 +568,7 @@ const cards = [
     title: "ŠAKOTIS",
     image: "../img/SAKOTIS.png",
     description: "",
-    secondImage: "../img/details/image-72.svg",
+    secondImage: "../img/details/image-71.svg",
   },
   {
     id: 72,
@@ -576,7 +576,7 @@ const cards = [
     title: "KEFYRAS",
     image: "../img/Kefiras.png",
     description: "",
-    secondImage: "../img/details/image-73.svg",
+    secondImage: "../img/details/image-72.svg",
   },
   {
     id: 73,
@@ -584,7 +584,7 @@ const cards = [
     title: "VĖLYKOS",
     image: "../img/VELYKOS.png",
     description: "",
-    secondImage: "../img/details/image-74.svg",
+    secondImage: "../img/details/image-73.svg",
   },
   {
     id: 74,
@@ -592,7 +592,7 @@ const cards = [
     title: "LIETUVOS PAŠTAS",
     image: "../img/Lp_.png",
     description: "",
-    secondImage: "../img/details/image-75.svg",
+    secondImage: "../img/details/image-74.svg",
   },
   {
     id: 75,
@@ -600,7 +600,7 @@ const cards = [
     title: "AŽUOLAS",
     image: "../img/AŽUOLAS.png",
     description: "",
-    secondImage: "../img/details/image-76.svg",
+    secondImage: "../img/details/image-75.svg",
   },
   {
     id: 76,
@@ -608,7 +608,7 @@ const cards = [
     title: "KUGELIS",
     image: "../img/KUGELIS.png",
     description: "",
-    secondImage: "../img/details/image-77.svg",
+    secondImage: "../img/details/image-76.svg",
   },
   {
     id: 77,
@@ -616,7 +616,7 @@ const cards = [
     title: "TRAKŲ PILIS",
     image: "../img/Trakų_Pilis_.png",
     description: "",
-    secondImage: "../img/details/image-78.svg",
+    secondImage: "../img/details/image-77.svg",
   },
   {
     id: 78,
@@ -624,7 +624,7 @@ const cards = [
     title: "VYTAUTAS VANDUO",
     image: "../img/Vytautas_Vanduo.png",
     description: "",
-    secondImage: "../img/details/image-79.svg",
+    secondImage: "../img/details/image-78.svg",
   },
   {
     id: 79,
@@ -632,7 +632,7 @@ const cards = [
     title: "PERGALĖ",
     image: "../img/Pergalė_.png",
     description: "",
-    secondImage: "../img/details/image-80.svg",
+    secondImage: "../img/details/image-79.svg",
   },
 ];
 

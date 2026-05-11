@@ -1,7 +1,9 @@
 import cards from "../data/data.js";
 
 const query = new URLSearchParams(window.location.search);
+
 const cardId = Number(query.get("id"));
+const categoryId = Number(query.get("cat"));
 
 const card = cards.find((item) => Number(item.id) === cardId);
 
@@ -22,15 +24,16 @@ if (!card) {
 
   cardDescription.textContent = card.description || "";
 
-  cardSecondImage.src = card.secondImage;
-  cardSecondImage.alt = card.title;
+  if (card.secondImage) {
+    cardSecondImage.src = card.secondImage;
+    cardSecondImage.alt = card.title;
+  } else {
+    cardSecondImage.style.display = "none";
+  }
 }
 
-backBtn.addEventListener("click", () => {
-  document.body.classList.add("hide-before-leave");
+backBtn?.addEventListener("click", () => {
+  const backCategory = categoryId || card?.category || 1;
 
-  setTimeout(() => {
-    window.location.href = `../category/category.html?cat=${card.category}`;
-  }, 80);
+  window.location.href = `../category/category.html?cat=${backCategory}`;
 });
-document.body.classList.add("page-ready");
