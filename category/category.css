@@ -126,6 +126,10 @@ body {
   font-family: "Fredoka-light";
 }
 
+.category-card {
+  cursor: pointer;
+}
+
 @media (max-width: 440px) {
   .category-page {
     padding: 18px 14px 26px;
