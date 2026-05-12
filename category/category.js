@@ -21,7 +21,7 @@ function buildCard(card) {
 
   const numberEl = document.createElement("div");
   numberEl.className = "card-number";
-  numberEl.textContent = card.id;
+  numberEl.textContent = `${card.id}.`;
 
   const thumb = document.createElement("div");
   thumb.className = "card-thumb";

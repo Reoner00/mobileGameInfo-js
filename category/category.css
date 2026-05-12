@@ -147,6 +147,7 @@ body {
 
 .card-number {
   font-family: "Fredoka-light";
+  font-size: 16px;
 }
 
 .empty-state {
@@ -199,7 +200,7 @@ body.category-loading .category-title h1 {
 
   .category-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    grid-template-columns: repeat(1, minmax(240px, 1fr));
     justify-items: center;
     gap: 22px;
   }
@@ -225,9 +226,8 @@ body.category-loading .category-title h1 {
   .category-inner {
     max-width: 980px;
   }
-
   .category-list {
-    grid-template-columns: repeat(3, minmax(240px, 1fr));
+    grid-template-columns: repeat(1fr);
     gap: 26px;
   }
 
@@ -266,7 +266,7 @@ body.category-loading .category-title h1 {
   }
 
   .category-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1fr);
     gap: 26px;
   }
 }

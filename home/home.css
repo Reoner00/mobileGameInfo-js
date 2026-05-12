@@ -53,6 +53,8 @@
 .buttons {
   width: 100%;
   display: flex;
+  min-width: 200px;
+
   flex-direction: column;
   align-items: center;
   gap: 15px;
@@ -372,7 +374,6 @@
 
   .buttons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 14px;
   }
 
@@ -490,7 +491,8 @@
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .home {

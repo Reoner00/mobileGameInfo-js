@@ -1,0 +1,24 @@
+{
+  "name": "mobilegameinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reoner00/mobileGameInfo-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Reoner00/mobileGameInfo-js/issues"
+  },
+  "homepage": "https://github.com/Reoner00/mobileGameInfo-js#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
