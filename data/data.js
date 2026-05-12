@@ -102,7 +102,7 @@ const cards = [
     id: 12,
     category: 2,
     title: "AUDIMAS",
-    image: "../img/AUDIMAS.png",
+    image: "../img/Audimas.png",
     description:
       "12. Audimas – tai prekės ženklas, kuris kiekvieną lietuvį paverčia „profesionaliu sportininku“, bent jau kol jis eina iki šiukšlių konteinerio ar parduotuvės. Tai oficiali Lietuvos patriotų uniforma: jei matai žmogų su tamsiai mėlynu džemperiu ir užrašu „Lietuva“, žinok – jis arba ruošiasi olimpinėms žaidynėms, arba tiesiog labai mėgsta kokybišką trikotažą, kuris nesusidėvi net po dešimties metų intensyvaus gulėjimo ant sofos. Tai drabužiai, kurie geriausiai atrodo fone prie gintarinių suvenyrų ar oro uosto išvykimo vartų, pranešant pasauliui: „Taip, aš iš ten, kur krepšinis yra religija, o Audimas – mūsų liturginis apdaras.“",
     secondImage: "../img/details/image-12.svg",
@@ -111,7 +111,7 @@ const cards = [
     id: 13,
     category: 2,
     title: "MEDUOLIAI",
-    image: "../img/MEDUOLIAI.png",
+    image: "../img/Meduoliai.png",
     description:
       "13. Meduoliai – tai tie rudi, kieti „akmenukai“, kurie oficialiai skaitosi konditerijos gaminys, bet neoficialiai gali būti naudojami kaip statybinė medžiaga ar ginklas savigynai. Jų pagrindinė užduotis – patikrinti tavo dantų stiprumą ir užtikrinti, kad be stiklinės pieno ar arbatos tavo gerklė tiesiog pasiduotų. Tai desertas, kuris Lietuvos močiučių spintelėse gali gulėti nuo praėjusio tūkstantmečio ir vis tiek išlaikyti tą patį „šviežią“ skonį bei gebėjimą sulaužyti bet kokį modernų odontologo darbą.",
     secondImage: "../img/details/image-13.svg",
@@ -120,7 +120,7 @@ const cards = [
     id: 14,
     category: 2,
     title: " GEDIMINAS ",
-    image: "../img/GEDIMINAS.png",
+    image: "../img/Gediminas.png",
     description:
       "14. Gediminas – tai tas vyrukas iš 50 litų banknoto (ilsėkis ramybėje), kuris turėjo labai keistų sapnų apie geležinius vilkus, bet užuot nuėjęs pas psichoterapeutą, nusprendė įkurti Vilnių. Jis buvo pirmasis Lietuvos „viešųjų ryšių“ specialistas: išsiuntinėjo laiškus visai Europai kviesdamas amatininkus atvykti, pažadėjęs jiems mažus mokesčius ir religinę laisvę – iš esmės sukūrė viduramžių „Silicon Valley“ pelkėtoje vietovėje. Jei ne jo sapnas ir tas triukšmingas vilkas, dabar sostinėje turbūt ganytume avis, o ne stovėtume kamščiuose prie šviesoforų.",
     secondImage: "../img/details/image-14.svg",
@@ -129,7 +129,7 @@ const cards = [
     id: 15,
     category: 2,
     title: " PILIES PASAKA ",
-    image: "../img/PASAKA.png",
+    image: "../img/Pasaka.png",
     description:
       "15. „Pilies pasaka“ – tai paveikslas, kuriame Mikalojus Konstantinas Čiurlionis parodė, kad sapnuoti galima ir be specialiųjų efektų. Jame pavaizduota pilis ant milžiniško kalno, kuri atrodo taip nerealiai, jog šiuolaikinis nekilnojamojo turto agentas ją parduotų kaip „aukščiausios klasės loftą su debesuota kaimynyste“. Tai meno kūrinys, priverčiantis tave jaustis taip, lyg būtum pametęs akinius arba tiesiog per ilgai žiūrėjęs į saulėlydį: viskas magiška, trapia ir šiek tiek primena tavo bandymus vaikystėje pastatyti smėlio pilį, kurią tuoj nuplaus banga. Tai oficialus įrodymas, kad lietuvių fantazija neturi ribų, net jei pilis stovi ten, kur logiška būtų tik helikopterių aikštelė.",
     secondImage: "../img/details/image-15.svg",
@@ -138,7 +138,7 @@ const cards = [
     id: 16,
     category: 2,
     title: "KAKĖ MAKĖ",
-    image: "../img/KAKE_MAKE.png",
+    image: "../img/Kake_Make.png",
     description:
       "16. Kakė Makė – tai mergaitė, kuri sėkmingai įvedė diktatūrą Lietuvos šeimose ir privertė tėvus patikėti, kad Netvarkos nykštukas yra tikresnis už mokesčių inspektorių. Ji yra pagrindinė priežastis, kodėl šiuolaikiniai vaikai bijo valytis dantis be specialios dainelės, ir kodėl kiekvienas namų kampas yra nuklotas jos prekės ženklo produkcija – nuo sauskelnių iki koldūnų. Tai herojė, kuri moko vaikus tvarkytis, nors pati dažniausiai baigia istoriją su dar didesniu chaosu ir moraline pergale prieš pavargusius suaugusiuosius.",
     secondImage: "../img/details/image-16.svg",
@@ -282,7 +282,7 @@ const cards = [
     id: 32,
     category: 4,
     title: "VYTIS",
-    image: "../img/VYTIS.png",
+    image: "../img/Vytis.png",
     description:
       "32. Vytis – tai mūsų nacionalinis „veiksmo herojus“ ant balto žirgo, kuris jau daugiau nei šešis šimtus metų nenuilstamai gena priešus iš Lietuvos kiemo ir neleidžia mums pamiršti, kad esame kovinga tauta. Tai ne šiaip herbas, o viduramžių „logotipas“, reprezentuojantis energiją ir ryžtą: kol kitos šalys savo simboliuose ramiai tupi kaip ereliai ar liūtai, mūsiškis šuoliuoja iškėlęs kalaviją, primindamas, kad geriausia gynyba yra puolimas (arba bent jau labai greitas jojimas teisinga kryptimi). Vytis puošia viską – nuo valstybinių dokumentų ir policijos automobilių iki eurų monetų mūsų piniginėse, tarnaudamas kaip amžinas priminimas, kad lietuvis visada yra kelyje, visada pasiruošęs kovoti už savo laisvę ir niekada nepamiršta pasibalnoti žirgo, net jei tas žirgas šiandien yra vokiškas automobilis.",
     secondImage: "../img/details/image-32.svg",
@@ -291,7 +291,7 @@ const cards = [
     id: 33,
     category: 4,
     title: "MAXIMA",
-    image: "../img/MAXIMA.png",
+    image: "../img/Maxima.png",
     description:
       "33. Maxima: Lietuviškas prekybos „mirtis“, kurioje visada rasi „Ačiū“ kortelę, bet niekada nerasi laisvos kasos piko metu. Tai vieta, kur eini duonos, o išeini su trimis kilogramais akcijinės nugarinės ir viltimi, kad tavo sukaupti „Maximos pinigai“ vieną dieną padengs tavo būsto paskolą.",
     secondImage: "../img/details/image-33.svg",
@@ -300,7 +300,7 @@ const cards = [
     id: 34,
     category: 4,
     title: "CAFFEIN",
-    image: "../img/CAFFEIN.png",
+    image: "../img/Caffein.png",
     description:
       "34. Caffeine – tai oficiali Lietuvos studentų, nuotolinio darbo „klajoklių“ ir hipsterių susibūrimo vieta, kurioje sumokėjęs už kavą gauni ne tik gėrimą, bet ir neoficialią nuomą už stalą su rozete visai popietei. Tai vieta, kurioje sėdėjimas su „MacBook“ yra beveik privalomas aprangos kodas, o pro vitrininius langus praeivius stebintys lankytojai atrodo lyg gyva miesto ekspozicija, bandanti išspręsti pasaulio problemas per vieną „Latte“ puodelį. Nors čia visada triukšminga ir kvepia skrudintomis pupelėmis, „Caffeine“ tapo mūsų šiuolaikine bendruomenės erdve, kurioje susitinka visi: nuo verslo susitikimus planuojančių kostiumuočių iki paauglių, kuriems šokoladinis sausainis yra pagrindinė dienos investicija.",
     secondImage: "../img/details/image-34.svg",
@@ -309,7 +309,7 @@ const cards = [
     id: 35,
     category: 4,
     title: "BULVINIAI BLYNAI",
-    image: "../img/BULVINIAI_BLYNAI.png",
+    image: "../img/Bulviniai_Blynai.png",
     description:
       "35. Bulviniai blynai – tai lietuviškas kulinarinis auksas, dėl kurio kiekvienas virtuvės šefas-mėgėjas yra pasiryžęs paaukoti savo krumplių odą ant tarkos, kad tik pasiektų tą tobulą, traškų kraštelį, priverčiantį pamiršti visas pasaulio dietas. Tai patiekalas-chameleonas: vieniems tai tiesiog sotūs pietūs su tiršta grietine, kitiems – prabangus užkandis su sūdyta lašiša, tačiau tikroji jų magija atsiskleidžia tik tada, kai jie keliauja tiesiai iš keptuvės į lėkštę, dar spragsėdami nuo aliejaus ir skleisdami aromatą, kuris kaimynams iškart praneša, jog pas tave šiandien šventė. Bulvinis blynas yra mūsų nacionalinio charakterio atspindys – paprastas iš išorės, bet turintis labai tvirtą (ir skanų) pagrindą viduje, ypač jei į jį įtarkuoji bent vieną svogūną ir nepagaili druskos.",
     secondImage: "../img/details/image-35.svg",
@@ -336,7 +336,7 @@ const cards = [
     id: 38,
     category: 4,
     title: "ROTUŠĖ",
-    image: "../img/ROTUSE.png",
+    image: "../img/rotuse.png",
     description:
       "38. Rotušė – tai pagrindinė miesto vieta, kur senovėje virė politinės aistros, prekyba ir bendruomenės reikalai. Jei katedros skliautai saugojo ramybę ir dvasinę atmintį, tai rotušė buvo miesto administracijos, sprendimų ir kasdienio gyvenimo centras. Šiandien ji išlieka miesto simboliu, kuriame susitinka praeities didybė ir dabarties iškilmės, primindama, kad net ir moderniame pasaulyje miestui reikia vietos, kurioje jaučiasi jo istorinis stuburas.",
     secondImage: "../img/details/image-38.svg",
@@ -354,7 +354,7 @@ const cards = [
     id: 40,
     category: 4,
     title: "RŪTA",
-    image: "../img/RUTA.png",
+    image: "../img/Ruta.png",
     description:
       "40. Rūta – tai nacionalinis nekaltybės ir moteriškumo „sargas“, kurio šakelė nuotakos nuomete senovėje buvo svarbesnė už bet kokius parašus. Melsvai žalias, aštraus kvapo krūmelis dainose tapo moralės simboliu: vešintis rūtų darželis reiškė gerą šeimininkę, o nuvytęs – garantuotas kaimo apkalbas. Tai augalas-legenda, primenantis, kad lietuviškas grožis yra žalias, ištvermingas ir šiek tiek aitrus.",
     secondImage: "../img/details/image-40.svg",
@@ -381,7 +381,7 @@ const cards = [
     id: 43,
     category: 5,
     title: "GIRA",
-    image: "../img/GIRA_.png",
+    image: "../img/Gira_.png",
     description:
       "43. Gira – tai senovinis lietuviškas „skystas auksas“ ir natūralus energetikas, kuris savo putojančia galia priverčia bet kokį gazuotą gėrimą iš vakarų pasitraukti į šalį. Tai gėrimas su charakteriu: tikra naminė gira kvepia tamsia, gerai paskrudinta rugine duona, o jos skonis – tai subtilus balansas tarp saldumo, ramybės ir tos lengvos rūgštelės, kuri geriausiai numalšina troškulį po sunkių ūkio darbų ar varginančių krepšinio rungtynių. Gira yra tikra laiko mašina – vienas gurkšnis iš rudo stiklo butelio ar molinio ąsočio akimirksniu sugrąžina į kaimą pas močiutę, kur gėrimas rūgdavo tiesiog ant palangės, o razinos dugne būdavo didžiausias desertinis lobis. Tai gėrimas, kuris simbolizuoja mūsų kantrybę (nes gerai girai reikia laiko „subręsti“) ir gebėjimą iš paprastos duonos riekės sukurti šventę kiekvienam gomuriui.",
     secondImage: "../img/details/image-43.svg",
@@ -399,7 +399,7 @@ const cards = [
     id: 45,
     category: 5,
     title: "GINTARAS",
-    image: "../img/jantar.png",
+    image: "../img/Jantar.png",
     description:
       "45. Gintaras – tai „Lietuvos auksas“, kurį Baltijos jūra po kiekvienos audros išspjauna į krantą kaip mažas, sustingusias saulės ašaras. Šis suakmenėjęs sakas yra mūsų šalies DNR dalis: jame gali rasti įkalintą priešistorinį uodą arba tiesiog pajusti tūkstantmečių ramybę, kai šildai jį delne. Gintaras mums nėra tiesiog papuošalas – tai ir vaistas, ir talismanas, ir tas privalomas suvenyras, kurį gauna kiekvienas užsienio svečias, kad išsivežtų dalelę mūsų vėsaus, smėlėto pajūrio. Tai simbolis, primenantis, kad net ir paprasčiausia sakų derva per ilgą laiką gali tapti brangenybe, jei tik turi pakankamai druskos ir bangų užnugaryje.",
     secondImage: "../img/details/image-45.svg",
@@ -408,7 +408,7 @@ const cards = [
     id: 46,
     category: 5,
     title: "VINCAS KUDIRKA",
-    image: "../img/KUDIRKA.png",
+    image: "../img/Kudirka.png",
     description:
       "46. Vincas Kudirka – tai vyras, kuris įrodė, kad varpas gali skambėti garsiau už patrankas, o smuikas yra puikus įrankis tautos žadinimui. Jis buvo tikras lietuviškas „influenceris“ dar tada, kai tai nebuvo madinga: rašė satyras, redagavo „Varpą“ ir, žinoma, padovanojo mums „Tautišką giesmę“, kurią giedodami visi staiga pasitempiame ir pasijuntame vieningi. Kudirka – tai idealisto pavyzdys, kuris savo sveikatą paaukojo vardan to, kad mes šiandien galėtume laisvai kalbėti savo kalba, primindamas, jog didžiausi pokyčiai prasideda nuo vieno užsispyrusio žmogaus ir labai aštrios plunksnos.",
     secondImage: "../img/details/image-46.svg",
@@ -453,7 +453,7 @@ const cards = [
     id: 51,
     category: 6,
     title: "TROLEIBUSAS",
-    image: "../img/troleibusas.png",
+    image: "../img/Troleibusas.png",
     description:
       "51. Troleibusai – tai Vilniaus ir Kauno gatvių „raguoti milžinai“, kurie savo ūžesiu ir specifiniu stabdžių cypimu kuria unikalų miesto garso takelį. Tai transportas tiems, kurie niekur neskuba ir vertina tą azartišką akimirką, kai „ūsai“ nukrenta nuo laidų ir vairuotojas, apsimovęs darbines pirštines, eina jų „gaudyti“ vidury sankryžos. Troleibusas yra tarsi lėtas, ekologiškas miestas viduje: čia susitinka visos kartos, o pro langą slenkantys vaizdai leidžia ramiai apmąstyti gyvenimą, kol transporto priemonė lėtai, bet užtikrintai juda link galinės stotelės.",
     secondImage: "../img/details/image-51.svg",
@@ -498,7 +498,7 @@ const cards = [
     id: 56,
     category: 6,
     title: "RYTAS",
-    image: "../img/RYTAS.png",
+    image: "../img/Rytas.png",
     description:
       "56. Vilniaus „Rytas“ – tai sostinės krepšinio ambicija ir pagrindinis „Žalgirio“ oponentas, be kurio Lietuvos krepšinio padangė būtų gerokai nuobodesnė. Juoda-balta-raudona spalvos simbolizuoja Vilniaus užsispyrimą ir tą nepakartojamą derbių įkarštį, kai emocijos verda per kraštus, o sirgalių balsai užpildo areną iki paskutinio centimetro. „Rytas“ yra komanda tiems, kurie mėgsta kovoti iki galo, laužyti prognozes ir įrodyti, kad sostinė turi savo krepšinio širdį, kuri plaka garsiai, ritmingai ir niekada nepasiduoda be mūšio.",
     secondImage: "../img/details/image-56.svg",
@@ -507,7 +507,7 @@ const cards = [
     id: 57,
     category: 6,
     title: "DŽIUGAS",
-    image: "../img/DZIUGAS.png",
+    image: "../img/Dziugas.png",
     description:
       "57. Sūris „Džiugas“ – tai lietuviškas atsakymas itališkam parmezanui, įrodantis, kad Telšiuose kantrybės ir pieno meistriškumo yra ne mažiau nei geriausiuose Europos ūkiuose. Tai kietasis sūris-aristokratas, kurio skonis su kiekvienu brandinimo mėnesiu tampa vis aštresnis, sodresnis ir labiau „traškantis“ dėl susidariusių kalcio kristalų. „Džiugas“ yra mūsų kulinarinis ambasadorius: jis puikiai tinka ir prie vyno taurės, ir į makaronus, ir tiesiog kaip vienišas skanėstas, primenantis, kad geriausiems dalykams reikia laiko, ramybės ir šiek tiek žemaitiško užsispyrimo.",
     secondImage: "../img/details/image-57.svg",
@@ -516,7 +516,7 @@ const cards = [
     id: 58,
     category: 6,
     title: "GRYBUKAI",
-    image: "../img/grybukai.png",
+    image: "../img/Grybukai.png",
     description:
       "58. Grybukai – tai lietuviškas konditerijos stebuklas, priverčiantis suabejoti botanikos dėsniais, nes šie grybai auga ne miške, o ant šventinio stalo. Tai kruopštaus rankų darbo šedevras: rudos, šokoladinės kepurėlės ir balti, cukrine glazūra nulieti koteliai su aguonų „žemių“ pėdsakais apačioje yra tikras vaikystės džiaugsmo simbolis. Nors jų gamyba reikalauja kantrybės ir specialių formų, galutinis rezultatas – minkštas, prieskoniais kvepiantis vidus ir traškus glajus – paverčia juos laukiamiausiu svečiu bet kuriose vestuvėse ar krikštynose, kur dėl paskutinio „grybo“ pasiruošę kovoti tiek vaikai, tiek suaugę.",
     secondImage: "../img/details/image-58.svg",
@@ -561,7 +561,7 @@ const cards = [
     id: 63,
     category: 7,
     title: "SUVENYRAI",
-    image: "../img/SUVENYRAS.png",
+    image: "../img/Suvenyras.png",
     description:
       "63. Suvenyrai – tai tie maži, dažniausiai gintariniai arba moliniai niekučiai, kurie po atostogų Lietuvoje nugula ant užsieniečių lentynų, primindami jiems apie mūsų vėjuotą pajūrį ir viduramžių pilis. Tai gali būti bet kas: nuo lino staltiesės, kurią gaila tepti, iki magnetuko su krepšinio kamuoliu, tačiau tikroji jų vertė slypi tame, kad jie bando į vieną mažą objektą sutalpinti visą lietuvišką svetingumą ir šiek tiek ilgesio mūsų žaliems miškams.",
     secondImage: "../img/details/image-63.svg",
@@ -579,7 +579,7 @@ const cards = [
     id: 65,
     category: 7,
     title: "CEPELINAI",
-    image: "../img/CEPELINAI.png",
+    image: "../img/Cepelinai.png",
     description:
       "65. Cepelinai – tai lietuviškas virtuvės „sunkioji artilerija“, tie didingi tarkuotų bulvių lėktuvnešiai, plaukiantys grietinės ir spirgučių padažo jūroje. Jų gaminimas yra tikras šeimos kantrybės testas (ypač tarkuojant bulves), tačiau pirmas kąsnis to minkšto, mėsingo pilnumo priverčia pamiršti visas kalorijų skaičiuokles. Cepelinas yra mūsų nacionalinio charakterio simbolis: sotus, užtikrintas ir garantuojantis, kad po tokių pietų vienintelis tavo noras bus ramiai „pailsėti“ ant sofos.",
     secondImage: "../img/details/image-65.svg",
@@ -588,7 +588,7 @@ const cards = [
     id: 66,
     category: 7,
     title: "MIGLĖ",
-    image: "../img/MIGLĖ.png",
+    image: "../img/Miglė.png",
     description:
       "66. Saldainis „Miglė“ – tai desertinė nostalgija, kurios traškus vaflinis korpusas ir švelnus riešutinis kremas burnoje sukuria mažą, saldžią šventę. Tai saldainis-diplomatas, kuris tinka ir prie arbatos su kaimyne, ir kaip saldi kyšio dalis močiutei, kad ši leistų dar valandą pažaisti lauke. „Miglė“ yra lengvumo ir tradicijos derinys, primenantis, kad kartais laimei užtenka tik vieno mažo, mėlyname popierėlyje paslėpto kąsnio.",
     secondImage: "../img/details/image-66.svg",
@@ -651,7 +651,7 @@ const cards = [
     id: 73,
     category: 8,
     title: "VĖLYKOS",
-    image: "../img/VELYKOS.png",
+    image: "../img/Velykos.png",
     description:
       "73. Velykos – tai didysis pavasario „atsibudimo vakarėlis“, kurio pagrindinis veiksmas sukasi aplink margučių ridenimą ir jų stiprumo testavimą. Tai metas, kai visa šeima virsta menininkais (su svogūnų lukštais ar vašku) ir vėliau sėda prie stalo, užkrauto balta mišraine ir krienais. Velykos mums yra apie viltį, saulę ir tą vaikišką azartą laimėti margučių kovas, įrodant, kad tavo kiaušinis yra kiečiausias visame rajone.",
     secondImage: "../img/details/image-73.svg",
@@ -678,7 +678,7 @@ const cards = [
     id: 76,
     category: 8,
     title: "KUGELIS",
-    image: "../img/KUGELIS.png",
+    image: "../img/Kugelis.png",
     description:
       "76. Kugelis – tai bulvinis „pyragas“, kuris savo sotumu gali konkuruoti su bet kokiu pasaulio patiekalu. Tarkuotos bulvės, šlakelis karšto pieno (kad nepatamsėtų!), daug spirgučių ir kepimas krosnyje paverčia šį valgį tikra skonio bomba, kuri geriausiai „sprogsta“ užpilta tiršta grietine. Kugelis yra šilumos ir namų jaukumo simbolis, primenantis, kad kai už lango lyja, nėra nieko geriau už kvapnų, apskrudusį bulvių plokštainį, dalinamą dideliais gabalais visai šeimai.",
     secondImage: "../img/details/image-76.svg",
