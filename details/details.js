@@ -25,8 +25,10 @@ if (!card) {
   cardDescription.textContent = card.description || "";
 
   if (card.secondImage) {
-    cardSecondImage.src = card.secondImage;
-    cardSecondImage.alt = card.title;
+    setTimeout(() => {
+      cardSecondImage.src = card.secondImage;
+      cardSecondImage.alt = card.title;
+    }, 300);
   } else {
     cardSecondImage.style.display = "none";
   }
