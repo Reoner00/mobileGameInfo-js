@@ -312,11 +312,12 @@
 
   transform: rotate(1deg);
 }
-/* Fixed iPhone layout: 12 Pro / 13 / 14 */
 @media (max-width: 440px) {
   html,
   body {
     width: 100%;
+    max-width: 100%;
+    min-height: 100svh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -325,16 +326,18 @@
 
   body {
     display: block;
+    position: relative;
   }
 
   .home {
-    width: 100vw !important;
-    max-width: none !important;
-    min-width: 100vw !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    min-height: 100svh;
     margin: 0 !important;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 20px 16px 30px;
     box-sizing: border-box;
+    overflow: hidden;
     transform: none !important;
     background: #45b43a;
   }
